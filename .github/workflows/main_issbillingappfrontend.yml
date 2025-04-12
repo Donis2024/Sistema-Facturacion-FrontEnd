@@ -29,7 +29,6 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install --legacy-peer-deps
-          npm install cross-env
           npm run build --if-present
           npm run test --if-present
       - name: Zip artifact for deployment
