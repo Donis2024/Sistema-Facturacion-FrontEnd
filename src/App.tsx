@@ -33,7 +33,7 @@ import {
   Navigate,
   Link,
   useLocation,
-} from "./react-router-dom";
+} from "react-router-dom";
 import LoginPage from "./pages/Login";
 import { useDispatch, useSelector } from "react-redux";
 import { LoginState, logout } from "./redux/reducers/loginReducer";
